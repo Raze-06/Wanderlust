@@ -1,0 +1,249 @@
+body {
+  font-family: "Plus Jakarta Sans", sans-serif !important;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.container {
+  flex: 1;
+  padding-top: 1rem; /* reserve space for sticky navbar */
+}
+
+/* Navbar Start */
+.navbar {
+  min-height: 5rem;
+}
+
+.fa-regular {
+  font-size: 2rem;
+  color: #fe424d;
+}
+
+.nav-link {
+  color: #222222 !important;
+}
+/* Navbar End */
+/* footer start */
+.f-info {
+  text-align: center;
+  background-color: #ebebeb;
+  display: flex;
+  height: 8rem;
+  justify-content: center;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.f-info-links a {
+  text-decoration: none;
+  color: #222222;
+}
+
+.f-info-links a:hover {
+  text-decoration: underline;
+}
+
+.f-info-socials,
+.f-info-links,
+.f-info-brand {
+  width: 100%;
+}
+
+.f-info-socials i {
+  font-size: 1.2rem;
+  margin-right: 1rem;
+}
+/* footer end */
+
+/* card start */
+.listing-card {
+  border-style: none !important;
+  margin-bottom: 1rem !important;
+}
+
+.card-img-top {
+  width: 100% !important;
+  border-radius: 1rem !important;
+  height: 20rem;
+}
+
+.card-body {
+  padding: 0 !important;
+}
+
+.card-img-overlay:hover {
+  opacity: 0.2;
+  background-color: white;
+}
+
+.listing-link {
+  text-decoration: none;
+  color: #222222;
+}
+
+/* new page */
+.add-btn {
+  background-color: #fe424d !important;
+  border: none !important;
+}
+
+/* Edit page  */
+.edit-btn {
+  background-color: #fe424d !important;
+  border: none !important;
+}
+
+/* Show page  */
+.btns {
+  display: flex;
+}
+
+.show-card {
+  padding-left: 0;
+  padding-right: 0;
+}
+
+#map {
+  height: 400px;
+  width: 80vh;
+  border-radius: 15px;
+}
+
+/* filters */
+#filters {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 1rem;
+}
+
+.filters-slider {
+  display: flex;
+}
+
+.filter {
+  margin-right: 1rem;
+  text-align: center;
+  padding: 0.5rem 1rem;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.filter:hover {
+  background-color: #f0f0f0;
+}
+
+.filter.active {
+  background-color: #fe424d;
+  color: white;
+  border-color: #fe424d;
+}
+
+.filter p {
+  margin: 0;
+  font-size: 0.9rem;
+}
+
+/* anchor-specific filter styling: remove underline and force black color */
+a.filter {
+  color: #000 !important;
+  text-decoration: none !important;
+}
+
+/* Mobile behavior */
+@media (max-width: 992px) {
+  .filters-slider {
+    flex-wrap: nowrap;
+    overflow-x: auto;
+  }
+
+  .filter,
+  .tax-toggle {
+    white-space: nowrap;
+  }
+
+  .filters-slider::-webkit-scrollbar {
+    display: none;
+  }
+}
+
+/* skeleton loading */
+.skeleton-card {
+  height: 20rem;
+  border-radius: 1rem;
+  margin-bottom: 1rem;
+  background: linear-gradient(90deg, #e0e0e0 25%, #f5f5f5 37%, #e0e0e0 63%);
+  background-size: 400% 100%;
+  animation: shimmer 1.4s infinite;
+}
+
+@keyframes shimmer {
+  0% {
+    background-position: 100% 0;
+  }
+  100% {
+    background-position: 0 0;
+  }
+}
+
+.fade-in {
+  animation: fadeIn 0.4s ease forwards;
+}
+
+.fade-out {
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+/* tax toggle css */
+.form-check.form-check-reverse {
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.form-check.form-check-reverse .form-check-input {
+  margin: 0; /* remove bootstrap negative margin */
+}
+
+.tax-toggle {
+  border: 1px solid #ccc;
+  border-radius: 15px;
+  padding: 0.5rem 0.5rem;
+  text-align: center;
+}
+
+/* Search  */
+.search-btn {
+  background-color: #fe424d;
+  border: none;
+  color: white;
+  border-radius: 25px;
+  padding: 0.5rem 1.5rem;
+}
+
+.search-inp {
+  border: 1px solid #ccc !important;
+  border-radius: 25px !important;
+  padding: 0.5rem 1.5rem !important;
+  width: 300px !important;
+}
+
+.search-btn i {
+  display: inline;
+  margin-right: 0.5rem;
+}
