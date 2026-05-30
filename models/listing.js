@@ -47,12 +47,10 @@ const listingSchema = new Schema({
     type: String,
     enum: [
       "Trending",
-      "Nearby",
       "Rooms",
       "Iconic Cities",
       "Mountains",
       "Villa",
-      "Superhost",
       "Camping",
       "Farm House",
       "Amazing Pools",
