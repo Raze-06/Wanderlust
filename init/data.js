@@ -12,13 +12,7 @@ const sampleListings = [
     country: "Italy",
     geometry: { type: "Point", coordinates: [11.2558, 43.7696] },
     category: "Villa",
-    reviews: [
-      "6974f38ec0e13776a6ec8f59",
-      "697d85d42b24c84baab0c74e",
-      "697d8a462b24c84baab0c7ec",
-      "697d8a7e2b24c84baab0c800",
-    ],
-    owner: "695c8b051ea0482d8557ffe1",
+    owner: "6a1ad3b31b0cc341a2ba2d87",
   },
   {
     title: "Secluded Treehouse Getaway",
@@ -33,8 +27,7 @@ const sampleListings = [
     country: "United States",
     geometry: { type: "Point", coordinates: [-122.6765, 45.5231] },
     category: "Camping",
-    reviews: [],
-    owner: "695c8b051ea0482d8557ffe1",
+    owner: "6a1ad3b31b0cc341a2ba2d87",
   },
   {
     title: "Beachfront Paradise",
@@ -49,8 +42,7 @@ const sampleListings = [
     country: "Mexico",
     geometry: { type: "Point", coordinates: [-86.8515, 21.1619] },
     category: "Trending",
-    reviews: [],
-    owner: "695c8b051ea0482d8557ffe1",
+    owner: "6a1ad3b31b0cc341a2ba2d87",
   },
   {
     title: "Rustic Cabin by the Lake",
@@ -65,8 +57,7 @@ const sampleListings = [
     country: "United States",
     geometry: { type: "Point", coordinates: [-120.044, 38.9399] },
     category: "Amazing Pools",
-    reviews: [],
-    owner: "695c8b051ea0482d8557ffe1",
+    owner: "6a1ad3b31b0cc341a2ba2d87",
   },
   {
     title: "Luxury Penthouse with City Views",
@@ -81,8 +72,7 @@ const sampleListings = [
     country: "United States",
     geometry: { type: "Point", coordinates: [-118.2437, 34.0522] },
     category: "Iconic Cities",
-    reviews: [],
-    owner: "695c8b051ea0482d8557ffe1",
+    owner: "6a1ad3b31b0cc341a2ba2d87",
   },
   {
     title: "Ski-In/Ski-Out Chalet",
@@ -97,8 +87,7 @@ const sampleListings = [
     country: "Switzerland",
     geometry: { type: "Point", coordinates: [7.2286, 46.0961] },
     category: "Mountains",
-    reviews: [],
-    owner: "695c8b051ea0482d8557ffe1",
+    owner: "6a1ad3b31b0cc341a2ba2d87",
   },
   {
     title: "Safari Lodge in the Serengeti",
@@ -113,8 +102,7 @@ const sampleListings = [
     country: "Tanzania",
     geometry: { type: "Point", coordinates: [34.6857, -2.3333] },
     category: "Trending",
-    reviews: [],
-    owner: "695c8b051ea0482d8557ffe1",
+    owner: "6a1ad3b31b0cc341a2ba2d87",
   },
   {
     title: "Historic Canal House",
@@ -129,8 +117,7 @@ const sampleListings = [
     country: "Netherlands",
     geometry: { type: "Point", coordinates: [4.9041, 52.3676] },
     category: "Iconic Cities",
-    reviews: [],
-    owner: "695c8b051ea0482d8557ffe1",
+    owner: "6a1ad3b31b0cc341a2ba2d87",
   },
   {
     title: "Private Island Retreat",
@@ -145,8 +132,7 @@ const sampleListings = [
     country: "Fiji",
     geometry: { type: "Point", coordinates: [178.065, -17.7134] },
     category: "Amazing Pools",
-    reviews: [],
-    owner: "695c8b051ea0482d8557ffe1",
+    owner: "6a1ad3b31b0cc341a2ba2d87",
   },
   {
     title: "Charming Cottage in the Cotswolds",
@@ -161,8 +147,7 @@ const sampleListings = [
     country: "United Kingdom",
     geometry: { type: "Point", coordinates: [-1.8433, 51.833] },
     category: "Farm House",
-    reviews: [],
-    owner: "695c8b051ea0482d8557ffe1",
+    owner: "6a1ad3b31b0cc341a2ba2d87",
   },
   {
     title: "Historic Brownstone in Boston",
@@ -177,8 +162,7 @@ const sampleListings = [
     country: "United States",
     geometry: { type: "Point", coordinates: [-71.0589, 42.3601] },
     category: "Rooms",
-    reviews: [],
-    owner: "695c8b051ea0482d8557ffe1",
+    owner: "6a1ad3b31b0cc341a2ba2d87",
   },
   {
     title: "Beachfront Bungalow in Bali",
@@ -193,8 +177,7 @@ const sampleListings = [
     country: "Indonesia",
     geometry: { type: "Point", coordinates: [115.1889, -8.4095] },
     category: "Amazing Pools",
-    reviews: [],
-    owner: "695c8b051ea0482d8557ffe1",
+    owner: "6a1ad3b31b0cc341a2ba2d87",
   },
   {
     title: "Mountain View Cabin in Banff",
@@ -209,8 +192,7 @@ const sampleListings = [
     country: "Canada",
     geometry: { type: "Point", coordinates: [-115.5708, 51.1784] },
     category: "Mountains",
-    reviews: [],
-    owner: "695c8b051ea0482d8557ffe1",
+    owner: "6a1ad3b31b0cc341a2ba2d87",
   },
   {
     title: "Art Deco Apartment in Miami",
@@ -225,8 +207,7 @@ const sampleListings = [
     country: "United States",
     geometry: { type: "Point", coordinates: [-80.1918, 25.7617] },
     category: "Iconic Cities",
-    reviews: [],
-    owner: "695c8b051ea0482d8557ffe1",
+    owner: "6a1ad3b31b0cc341a2ba2d87",
   },
   {
     title: "Tropical Villa in Phuket",
@@ -241,8 +222,7 @@ const sampleListings = [
     country: "Thailand",
     geometry: { type: "Point", coordinates: [98.3381, 7.8804] },
     category: "Villa",
-    reviews: [],
-    owner: "695c8b051ea0482d8557ffe1",
+    owner: "6a1ad3b31b0cc341a2ba2d87",
   },
   {
     title: "Historic Castle in Scotland",
@@ -257,8 +237,7 @@ const sampleListings = [
     country: "United Kingdom",
     geometry: { type: "Point", coordinates: [-4.2026, 57.4778] },
     category: "Trending",
-    reviews: [],
-    owner: "695c8b051ea0482d8557ffe1",
+    owner: "6a1ad3b31b0cc341a2ba2d87",
   },
   {
     title: "Desert Oasis in Dubai",
@@ -273,8 +252,7 @@ const sampleListings = [
     country: "United Arab Emirates",
     geometry: { type: "Point", coordinates: [55.2708, 25.2048] },
     category: "Rooms",
-    reviews: [],
-    owner: "695c8b051ea0482d8557ffe1",
+    owner: "6a1ad3b31b0cc341a2ba2d87",
   },
   {
     title: "Rustic Log Cabin in Montana",
@@ -289,8 +267,7 @@ const sampleListings = [
     country: "United States",
     geometry: { type: "Point", coordinates: [-110.3626, 46.8797] },
     category: "Farm House",
-    reviews: [],
-    owner: "695c8b051ea0482d8557ffe1",
+    owner: "6a1ad3b31b0cc341a2ba2d87",
   },
   {
     title: "Beachfront Villa in Greece",
@@ -305,8 +282,7 @@ const sampleListings = [
     country: "Greece",
     geometry: { type: "Point", coordinates: [25.3289, 37.4467] },
     category: "Villa",
-    reviews: [],
-    owner: "695c8b051ea0482d8557ffe1",
+    owner: "6a1ad3b31b0cc341a2ba2d87",
   },
   {
     title: "Eco-Friendly Treehouse Retreat",
@@ -320,8 +296,7 @@ const sampleListings = [
     country: "Costa Rica",
     geometry: { type: "Point", coordinates: [-84.0739, 9.7489] },
     category: "Camping",
-    reviews: [],
-    owner: "695c8b051ea0482d8557ffe1",
+    owner: "6a1ad3b31b0cc341a2ba2d87",
   },
   {
     title: "Modern Apartment in Tokyo",
@@ -336,8 +311,7 @@ const sampleListings = [
     country: "Japan",
     geometry: { type: "Point", coordinates: [139.6917, 35.6895] },
     category: "Iconic Cities",
-    reviews: [],
-    owner: "695c8b051ea0482d8557ffe1",
+    owner: "6a1ad3b31b0cc341a2ba2d87",
   },
   {
     title: "Luxury Villa in the Maldives",
@@ -351,8 +325,7 @@ const sampleListings = [
     country: "Maldives",
     geometry: { type: "Point", coordinates: [73.2207, 3.2028] },
     category: "Amazing Pools",
-    reviews: [],
-    owner: "695c8b051ea0482d8557ffe1",
+    owner: "6a1ad3b31b0cc341a2ba2d87",
   },
   {
     title: "Glass House with Lake View",
@@ -366,8 +339,7 @@ const sampleListings = [
     country: "India",
     geometry: { type: "Point", coordinates: [73.7125, 24.5854] },
     category: "Trending",
-    reviews: [],
-    owner: "695c8b051ea0482d8557ffe1",
+    owner: "6a1ad3b31b0cc341a2ba2d87",
   },
   {
     title: "Beachside Homestay",
@@ -381,8 +353,7 @@ const sampleListings = [
     country: "India",
     geometry: { type: "Point", coordinates: [73.8567, 15.2993] },
     category: "Farm House",
-    reviews: [],
-    owner: "695c8b051ea0482d8557ffe1",
+    owner: "6a1ad3b31b0cc341a2ba2d87",
   },
 ];
 

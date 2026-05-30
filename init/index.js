@@ -11,7 +11,9 @@ main()
   });
 
 async function main() {
-  await mongoose.connect("mongodb://127.0.0.1:27017/wanderlust");
+  await mongoose.connect(
+    "mongodb+srv://Raze:ye9E9pXSU4hToyY6@cluster0.pqmdams.mongodb.net/?appName=Cluster0",
+  );
 }
 
 const initDB = async () => {
@@ -22,7 +24,7 @@ const initDB = async () => {
   await Listing.insertMany(initData.data);
   console.log("Database Initialized");
 };
-initDB();
+// initDB();
 // const deleteRecord = async () => {
 //   const list = await Listing.findByIdAndDelete("693e52f9a3379bfb93b1a204");
 //   console.log(list);
@@ -35,3 +37,11 @@ initDB();
 //   console.log(list);
 // };
 // del();
+
+async function seedDB() {
+  await Listing.deleteMany({});
+  await Listing.insertMany(initData.data);
+  console.log("Data inserted!");
+  mongoose.connection.close();
+}
+seedDB();
