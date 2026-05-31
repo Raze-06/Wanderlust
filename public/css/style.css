@@ -13,6 +13,7 @@ body {
 /* Navbar Start */
 .navbar {
   min-height: 5rem;
+  width: 100%; /* 🔴 NEW: ensures full width always */
 }
 
 .fa-regular {
@@ -22,6 +23,42 @@ body {
 
 .nav-link {
   color: #222222 !important;
+}
+
+/* 🔴 NEW: Search input responsive fix */
+.search-inp {
+  min-width: 0; /* allows input to shrink below default */
+  width: 100%;
+}
+
+/* 🔴 NEW: Search button responsive fix */
+.search-btn {
+  white-space: nowrap; /* prevents button text from wrapping */
+  flex-shrink: 0; /* prevents button from shrinking */
+}
+
+/* 🔴 NEW: On mobile, form takes full width */
+@media (max-width: 991px) {
+  form.d-flex {
+    width: 100% !important;
+    margin-bottom: 0.5rem;
+  }
+
+  .search-inp {
+    width: 100% !important;
+  }
+
+  .navbar-collapse {
+    width: 100% !important;
+  }
+
+  .navbar-nav {
+    width: 100%;
+  }
+
+  .btn-host {
+    width: fit-content; /* 🔴 NEW: button doesn't stretch full width */
+  }
 }
 /* Navbar End */
 /* footer start */
@@ -60,6 +97,7 @@ body {
 .listing-card {
   border-style: none !important;
   margin-bottom: 1rem !important;
+  box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.1);
 }
 
 .card-img-top {
@@ -165,6 +203,12 @@ a.filter {
     white-space: nowrap;
   }
 
+  .filters {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-right: 10px;
+  }
+
   .filters-slider::-webkit-scrollbar {
     display: none;
   }
@@ -246,4 +290,24 @@ a.filter {
 .search-btn i {
   display: inline;
   margin-right: 0.5rem;
+}
+
+.btn-host {
+  background-color: #ff6b6b;
+  color: white;
+  padding: 8px 18px;
+  border-radius: 25px;
+  font-size: 14px;
+  font-weight: 600;
+  text-decoration: none;
+  border: none;
+  transition:
+    background-color 0.3s ease,
+    transform 0.2s ease;
+}
+
+.btn-host:hover {
+  background-color: #e85555;
+  transform: scale(1.05);
+  color: white;
 }
