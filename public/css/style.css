@@ -13,52 +13,15 @@ body {
 /* Navbar Start */
 .navbar {
   min-height: 5rem;
-  width: 100%; /* 🔴 NEW: ensures full width always */
 }
 
 .fa-regular {
-  font-size: 2rem;
+  font-size: 3rem;
   color: #fe424d;
 }
 
 .nav-link {
   color: #222222 !important;
-}
-
-/* 🔴 NEW: Search input responsive fix */
-.search-inp {
-  min-width: 0; /* allows input to shrink below default */
-  width: 100%;
-}
-
-/* 🔴 NEW: Search button responsive fix */
-.search-btn {
-  white-space: nowrap; /* prevents button text from wrapping */
-  flex-shrink: 0; /* prevents button from shrinking */
-}
-
-/* 🔴 NEW: On mobile, form takes full width */
-@media (max-width: 991px) {
-  form.d-flex {
-    width: 100% !important;
-    margin-bottom: 0.5rem;
-  }
-
-  .search-inp {
-    width: 100% !important;
-  }
-
-  .navbar-collapse {
-    width: 100% !important;
-  }
-
-  .navbar-nav {
-    width: 100%;
-  }
-
-  .btn-host {
-    width: fit-content; /* 🔴 NEW: button doesn't stretch full width */
-  }
 }
 /* Navbar End */
 /* footer start */
@@ -73,8 +36,8 @@ body {
 }
 
 .f-info-links a {
-  text-decoration: none;
-  color: #222222;
+  text-decoration: none !important;
+  color: #222222 !important;
 }
 
 .f-info-links a:hover {
