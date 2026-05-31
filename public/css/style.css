@@ -255,6 +255,22 @@ a.filter {
   margin-right: 0.5rem;
 }
 
+/* 🔴 NEW: Small screen search fixes */
+@media (max-width: 500px) {
+  .search-inp {
+    width: 120px !important; /* 🔴 NEW: smaller input on mobile */
+    font-size: 0.8rem; /* 🔴 NEW: smaller text inside input */
+  }
+
+  .search-btn {
+    padding: 0.375rem 0.6rem; /* 🔴 NEW: smaller button padding */
+  }
+
+  .search-text {
+    display: none; /* 🔴 NEW: hide "Search" text */
+  }
+}
+
 .btn-host {
   background-color: #ff6b6b;
   color: white;
