@@ -258,8 +258,8 @@ a.filter {
 /* 🔴 NEW: Small screen search fixes */
 @media (max-width: 500px) {
   .search-inp {
-    width: 120px !important; /* 🔴 NEW: smaller input on mobile */
-    font-size: 0.8rem; /* 🔴 NEW: smaller text inside input */
+    width: 200px !important; /* 🔴 NEW: smaller input on mobile */
+    font-size: 0.9rem; /* 🔴 NEW: smaller text inside input */
   }
 
   .search-btn {
