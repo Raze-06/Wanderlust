@@ -7,7 +7,7 @@ body {
 
 .container {
   flex: 1;
-  padding-top: 1rem; /* reserve space for sticky navbar */
+  padding-top: 1rem;
 }
 
 /* Navbar Start */
@@ -149,7 +149,7 @@ body {
   font-size: 0.9rem;
 }
 
-/* anchor-specific filter styling: remove underline and force black color */
+/* remove underline and force black color */
 a.filter {
   color: #000 !important;
   text-decoration: none !important;
@@ -256,19 +256,18 @@ a.filter {
   margin-right: 0.5rem;
 }
 
-/* 🔴 NEW: Small screen search fixes */
 @media (max-width: 500px) {
   .search-inp {
-    width: 220px !important; /* 🔴 NEW: smaller input on mobile */
-    font-size: 0.9rem; /* 🔴 NEW: smaller text inside input */
+    width: 220px !important;
+    font-size: 0.9rem;
   }
 
   .search-btn {
-    padding: 0.6rem 0.6rem; /* 🔴 NEW: smaller button padding */
+    padding: 0.6rem 0.6rem;
   }
 
   .search-text {
-    display: none; /* 🔴 NEW: hide "Search" text */
+    display: none;
   }
 }
 
