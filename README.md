@@ -1,7 +1,7 @@
-🌍 Wanderlust – Travel Listing Platform
+🌍 StayVista – Travel Listing Platform
 
 📌 Overview
-Wanderlust is a full-stack web application that allows users to explore and share unique travel stays across different locations. The platform supports secure authentication, listing management, reviews, and location-based features to provide an interactive user experience.
+StayVista is a full-stack web application that allows users to explore and share unique travel stays across different locations. The platform supports secure authentication, listing management, reviews, and location-based features to provide an interactive user experience.
 
  🚀 Features
 
